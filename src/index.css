@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  margin-bottom: 2px;
+}
+
+.box {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+.hidden {
+  display: none;
+}
+
+.question-cover {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f0f0f0; 
+}
+
+button.option-button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  background-color: #ffffff; 
+  color: #333; 
+  transition: background-color 0.3s ease;
+}
+
+button.option-button.selected {
+  background-color: #d0e0e0; 
+  color: #000; 
+}
+
+button.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  background-color: #06961e; 
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+button.submit-button:hover {
+  background-color: #043e0d; 
+}
+
+p {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+
+ul{
+  list-style-type:none;
+}
+
+
+
+/*restart - button*/
+.restart-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #06961e;
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.restart-button:hover {
+  background-color: #092635;
+}
+
+.restart-button:active {
+  transform: scale(0.98);
+}
+
+.score-container {
+  text-align: center;
+  font-family: 'Poppins', sans-serif; 
+  padding: 20px;
+  max-width: 600px; 
+  margin: 20px auto;
+}
+
+.score-container h2 {
+  font-size: 30px;
+  color: #092635; 
+  margin-bottom: 20px;
+}
+
+.score-container p {
+  font-size: 25px;
+  color: #1B4242; 
+  margin: 10px 0;
+}
+
+.score-container .answers-summary {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffffff; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+}
+
+.answers-summary h3 {
+  font-size: 20px;
+  color: #092635; 
+  margin-bottom: 10px;
+}
+
+.answers-summary ul {
+  list-style-type: none; 
+  padding: 0;
+}
+
+.answers-summary li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0; 
+  border-radius: 4px; 
+  text-align: left; 
+}
+
+.answers-summary li strong {
+  color: #092635;
+}
+
